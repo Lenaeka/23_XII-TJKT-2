@@ -1,1 +1,1 @@
-# 23_XII-TJKT-2
+# XII-TJKT-2
