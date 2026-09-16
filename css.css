@@ -1064,7 +1064,7 @@ footer p {
 .polaroid-photo img {
     width: 50%;
     height: 50%;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
     transition: transform 0.5s ease;
 }
