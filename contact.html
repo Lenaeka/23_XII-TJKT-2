@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Contact | XII TJKT 2</title>
+    <link rel="stylesheet"
+          href="css.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+
+<body>
+
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <span>⚡</span>
+            XII TJKT 2
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="schedule.html">
+                    Schedule
+                </a>
+            </li>
+
+            <li>
+                <a href="information.html">
+                    Information
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html"
+                   class="active">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+
+        <button class="menu-btn"
+                onclick="toggleMenu()">
+            ☰
+        </button>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+
+<section class="page-header">
+
+    <p>
+        HUBUNGI KAMI
+    </p>
+
+    <h1>
+        Contact
+    </h1>
+
+    <span>
+        Sampaikan saran, kritik, atau pertanyaan
+    </span>
+
+</section>
+
+
+
+<section class="contact-section">
+
+
+<div class="contact-info">
+
+    <p class="mini-title">
+        CONTACT
+    </p>
+
+    <h2>
+        Punya Saran atau Kritik?
+    </h2>
+
+    <p>
+        Kami terbuka terhadap saran, kritik, dan masukan
+        untuk membuat kegiatan serta website kelas
+        menjadi lebih baik.
+    </p>
+
+
+    <div class="contact-item">
+
+        <span>🏫</span>
+
+        <div>
+            <h4>Sekolah</h4>
+            <p>
+                SMKN 1 Klaten
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="contact-item">
+
+        <span>👥</span>
+
+        <div>
+            <h4>Kelas</h4>
+            <p>
+                XII TJKT 2
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="contact-item">
+
+        <span>📧</span>
+
+        <div>
+            <h4>Instagram</h4>
+            <p>
+                tjktwoo_
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="contact-form">
+
+    <h3>
+        Kirim Pesan
+    </h3>
+
+
+    <form onsubmit="sendMessage(event)">
+
+        <label>
+            Nama
+        </label>
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Masukkan nama"
+            required
+        >
+
+
+        <label>
+            Email
+        </label>
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Masukkan email"
+            required
+        >
+
+
+        <label>
+            Jenis Pesan
+        </label>
+
+        <select id="type">
+
+            <option>
+                Saran
+            </option>
+
+            <option>
+                Kritik
+            </option>
+
+            <option>
+                Pertanyaan
+            </option>
+
+            <option>
+                Lainnya
+            </option>
+
+        </select>
+
+
+        <label>
+            Pesan
+        </label>
+
+        <textarea
+            id="message"
+            rows="6"
+            placeholder="Tuliskan pesan..."
+            required>
+        </textarea>
+
+
+        <button
+            type="submit"
+            class="btn primary">
+
+            Kirim Pesan →
+
+        </button>
+
+    </form>
+
+</div>
+
+
+</section>
+
+</main>
+
+
+
+<footer>
+
+    <div class="footer-logo">
+        ⚡ XII TJKT 2
+    </div>
+
+    <p>
+        SMKN 1 Klaten • Tahun Ajaran 2026/2027
+    </p>
+
+    <div class="copyright">
+        @2026 XII TJKT 2
+    </div>
+
+</footer>
+
+
+<script src="js.js"></script>
+
+</body>
+
+</html>
